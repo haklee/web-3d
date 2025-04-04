@@ -19,7 +19,7 @@ export default function Project250401() {
               Project 250401
             </h1>
             <p className="text-gray-600 dark:text-gray-300 text-lg">
-              A 3D web project created on April 1, 2024
+              A 3D web project created on April 1, 2025
             </p>
           </div>
 
@@ -30,12 +30,14 @@ export default function Project250401() {
             </div>
             <div className="prose dark:prose-invert max-w-none">
               <p className="text-gray-600 dark:text-gray-300">
-                This is an interactive 3D scene featuring a rotating blue cube. You can:
+                This interactive 3D scene demonstrates the integration of Three.js with React Three Fiber in a Next.js environment. The scene features a dynamically rotating cube with realistic lighting and shadows, showcasing the capabilities of modern web-based 3D graphics.
               </p>
-              <ul className="text-gray-600 dark:text-gray-300">
-                <li>Rotate the view by dragging with your mouse</li>
-                <li>Zoom in/out using the mouse wheel</li>
-                <li>Pan by right-clicking and dragging</li>
+              <h3 className="text-lg font-semibold mt-6 mb-3">Interaction Guide</h3>
+              <ul className="text-gray-600 dark:text-gray-300 space-y-2">
+                <li>• Rotate the view by clicking and dragging with your mouse</li>
+                <li>• Zoom in/out using the mouse wheel or pinch gestures on touch devices</li>
+                <li>• Pan the view by right-clicking and dragging</li>
+                <li>• Double-click to reset the camera position</li>
               </ul>
             </div>
           </div>
@@ -44,9 +46,9 @@ export default function Project250401() {
             <div className="border border-gray-200 dark:border-gray-700 rounded-xl p-6 bg-white dark:bg-gray-800">
               <h3 className="text-lg font-semibold mb-3">Project Details</h3>
               <ul className="space-y-2 text-gray-600 dark:text-gray-300">
-                <li>Created: April 1, 2024</li>
+                <li>Created: April 1, 2025</li>
                 <li>Type: 3D Web Experience</li>
-                <li>Status: In Development</li>
+                <li>Status: Complete</li>
               </ul>
             </div>
             <div className="border border-gray-200 dark:border-gray-700 rounded-xl p-6 bg-white dark:bg-gray-800">

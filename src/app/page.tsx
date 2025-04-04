@@ -6,7 +6,7 @@ export default function Home() {
       id: "250401",
       title: "Project 250401",
       description: "A 3D web project",
-      date: "April 1, 2024"
+      date: "April 1, 2025"
     }
   ];
 
