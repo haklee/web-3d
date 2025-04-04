@@ -2,19 +2,12 @@
 
 import { Canvas } from '@react-three/fiber';
 import { Environment } from '@react-three/drei';
-import { useState } from 'react';
 import ExplodingSquare from './ExplodingSquare';
 
-const GRID_SIZE = 8;
+const GRID_SIZE = 6;
 const SPACING = 1.2;
 
 export default function Scene() {
-  const [explosionCount, setExplosionCount] = useState(0);
-
-  const handleSquareClick = () => {
-    setExplosionCount((prev) => prev + 1);
-  };
-
   const squares = [];
   for (let row = 0; row < GRID_SIZE; row++) {
     for (let col = 0; col < GRID_SIZE; col++) {
@@ -24,7 +17,7 @@ export default function Scene() {
         <ExplodingSquare
           key={`${row}-${col}`}
           position={[x, y, 0]}
-          onClick={handleSquareClick}
+          onClick={() => {}}
         />
       );
     }
