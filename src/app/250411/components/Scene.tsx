@@ -1,8 +1,7 @@
 'use client';
 
-import { useState, useCallback, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import { Canvas } from '@react-three/fiber';
-import * as THREE from 'three';
 
 interface Point {
   x: number;
