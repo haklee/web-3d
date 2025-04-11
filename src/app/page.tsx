@@ -3,6 +3,12 @@ import Link from "next/link";
 export default function Home() {
   const projects = [
     {
+      id: "250411",
+      title: "Project 250411",
+      description: "Halton sequence point distribution",
+      date: "April 11, 2025"
+    },
+    {
       id: "250408",
       title: "Project 250408",
       description: "Dynamic convex hull visualization",
