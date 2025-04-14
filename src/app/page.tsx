@@ -3,6 +3,12 @@ import Link from "next/link";
 export default function Home() {
   const projects = [
     {
+      id: "250414",
+      title: "Project 250414",
+      description: "Interactive 3D Dice with MeshPortalMaterial",
+      date: "April 14, 2025"
+    },
+    {
       id: "250411",
       title: "Project 250411",
       description: "Halton sequence point distribution",
