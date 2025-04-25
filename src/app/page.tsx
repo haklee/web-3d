@@ -3,6 +3,12 @@ import Link from "next/link";
 export default function Home() {
   const projects = [
     {
+      id: "250425",
+      title: "Project 250425",
+      description: "Conway's Game of Life with GLSL shaders",
+      date: "April 25, 2025"
+    },
+    {
       id: "250421",
       title: "Project 250421",
       description: "Dynamic random pixel animation",
