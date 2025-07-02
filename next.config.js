@@ -4,8 +4,8 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/web-3d' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/web-3d/' : '',
+  basePath: '',
+  assetPrefix: '',
 }
 
 module.exports = nextConfig 
